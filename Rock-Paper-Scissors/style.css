@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+*, *::before, *::after {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+    font-family: 'Yusei Magic',sans-serif;
+    color: wheat;
+    overflow: hidden;
+    font-size: 40px;
+}   
+header{
+    background-color: rgb(6, 30, 43);
+    text-align: center;
+    padding: 15px;
+}
+header > h1 {
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.score-card {
+    text-align: center;
+    position: relatve;
+    margin: 20px;
+    padding: 10px;
+    border: 3px solid burlywood;
+    border-radius: 10px;
+}
+.score {
+    font-size: 40px;
+}
+.who-score {
+    position: absolute;
+    background-color: chocolate;
+    color: wheat;
+    padding: 5px;
+    margin: 10px;
+    font-size: 25px;
+    border-radius: 5px;
+}
+#computer-score{
+    right: 20px;
+}
+.choices {
+    display: flex;
+    position: relative;
+    left: 50%;
+    margin: 20px auto;
+    margin-left: -255px;
+    text-align: center;
+}
+.choice {
+    background-color: coral;
+    border: 2px solid white;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+.choice:hover {
+    cursor: pointer;
+    background-color: chocolate;
+}
+.choice > p {
+    color: black;
+    font-size: 20px;
+}
+#Result > h2 {
+    text-align: center;
+    margin: 20px;  
+    font-size: 35px;
+}
+button {
+    position: relative;
+    left: 50%;
+    margin-left: -155px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    outline: none;
+    bottom: 0px;
+    width: 15vw;
+    border-radius: 15px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0px 6px 6px 8px wheat;
+}
